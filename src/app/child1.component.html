@@ -1,0 +1,8 @@
+<button (click)="addNew()" mat-flat-button>Добавить цитату</button>
+
+<div class="divForQuotes">
+    <blockquote *ngFor="let item of cites">
+        <p>{{item}}</p>
+    </blockquote>
+</div>
+

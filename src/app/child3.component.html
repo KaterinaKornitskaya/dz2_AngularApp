@@ -1,0 +1,9 @@
+<button (click)="addLink()" mat-flat-button>Добавить ссылку</button>
+
+<div class="iconsDiv">
+    <a *ngFor="let item of linkArr" href="{{item[0]}}" title="{{item[1]}}">
+        <span class="material-symbols-outlined">
+            captive_portal
+            </span>
+    </a>  
+</div>

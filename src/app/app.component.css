@@ -1,0 +1,100 @@
+main{
+    width: 80%;
+    background: rgba(255,255,255,0.3);
+    margin: auto;
+    padding: 1em;
+}
+
+mat-divider{
+    margin: 0.5em 0;
+}
+
+blockquote {
+margin: 0;
+color: #3A3C55;
+padding: .5em 0.5em 0.5em 3em;
+position: relative;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+}
+
+blockquote:before {
+content: "\201C";
+font-family: serif;
+position: absolute;
+left: 10px;
+top: 5px;
+color: rgb(39, 69, 102);
+background: rgba(148,187,233,0.2);
+width: 1em;
+height: 1em;
+border-radius: 50%;
+font-size: 2em;
+line-height: 1;
+text-align: center;
+}
+blockquote p {
+color: rgb(39, 69, 102);
+margin: 0 0 16px;
+font-size: 14px;
+letter-spacing: .05em;
+line-height: 1.4;
+font-style: italic;
+}
+
+.section2{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section2Left{
+    width: 30%;
+    /* border: 1px solid green; */
+}
+
+.section2Right{
+    width: 70%;
+    /* border: 1px solid blue; */
+    margin-left: 0.5em;
+}
+
+img{
+    width: 100%;
+}
+
+span.material-symbols-outlined {
+    color: rgb(39, 69, 102);
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+span.material-symbols-outlined:hover{
+    color: rgb(148,187,233);
+}
+
+.iconsDiv{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.example-full-width{
+    margin: 0;
+    width: 100%;
+}
+
+.divForQuotes{
+    margin-top: 0.5em;
+}
+
+.myForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myField{
+    width: 49%;
+}
